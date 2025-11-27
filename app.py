@@ -238,9 +238,8 @@ def tc(commodity):
 if not st.session_state.logged_in:
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
-        st.title("🌾 GrainShield Pro")
-        st.subheader("AI-Powered Oilseed Hedging Platform")
-        st.caption("Secure Your Future with Smart Hedging")
+        st.subheader("🌾 GrainShield Pro")
+        st.caption("AI-Powered Oilseed Hedging Platform")
         st.divider()
         tab1, tab2 = st.tabs([t("🔐 Login", lang), t("📝 Register", lang)])
         with tab1:
